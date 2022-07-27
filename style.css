@@ -5,7 +5,7 @@ body {
 .form {
   position: absolute;
   top: 15rem;
-  background-color: #120E43;
+  background-color: #120e43;
   width: 20rem;
   height: 30rem;
   left: 50%;
@@ -28,28 +28,87 @@ body {
   color: aliceblue;
 }
 .input-container {
-    position: relative;
+  position: relative;
   text-align: center;
-   top: 5rem;
+  top: 5rem;
 }
 
-button{
+button {
+  position: relative;
+  top: 6rem;
+  left: 15px;
+  width: 90%;
+  height: 50px;
+  border-radius: 1rem;
+  background-color: #5da3fa;
+}
+
+.input {
+  height: 50px;
+  width: 90%;
+  border-radius: 15px;
+  background-color: #cad5e2;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+a {
+  color: aliceblue;
+}
+
+.center {
+  position: absolute;
+  left: 30rem;
+  top: 15rem;
+  background-color: white;
+  width: 22rem;
+  height: 30rem;
+  border-radius: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+h1 {
+  margin-left: 30px;
+}
+.inputbox {
+  position: relative;
+  top: 3rem;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 90%;
+  border-radius: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: left;
+
+  margin-left: 15px;
+  margin-top: 2rem;
+}
+
+input[type="button"]{
+
     position: relative;
-    top: 6rem;
-    left : 15px;
-    width: 90%;
+    top: 3rem;
+    left: 15px;
+    width: 50%;
     height: 50px;
     border-radius: 1rem;
-    background-color: #5DA3FA;
-}
+    background-color: #5da3fa;
 
-.input{
-    height: 50px;
-    width: 90%;
-    border-radius: 15px;
-    background-color: #CAD5E2;
-    font-family: 'Times New Roman', Times, serif;
-    font-size:  30px;
-    text-align: center;
-    color: black;
+}
+.line{
+position: relative;
+    border-left: 10px solid green;
+    height: 30px;
+    top: 3.5rem;
+    left: 1rem;
+  
+}
+.bd{
+    padding: 45rem;
+    background : conic-gradient(blue 0deg 135deg,green 135deg 315deg,blue 315deg 360deg);
 }
